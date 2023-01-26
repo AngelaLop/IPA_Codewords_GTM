@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{7}{c}}
+\toprule
+                &\multicolumn{1}{c}{Index}&\multicolumn{1}{c}{Allowed to go out alone}&\multicolumn{1}{c}{Does not have to ask permission to buy goods}&\multicolumn{1}{c}{Visit Friends}&\multicolumn{1}{c}{Asset Purchasing}&\multicolumn{1}{c}{Relatives Care}&\multicolumn{1}{c}{Child Care}\\
+\midrule
+Codewords       &   -0.039** &   -0.041   &   -0.126***&   -0.037   &    0.034   &   -0.005   &   -0.061   \\
+                &  (0.017)   &  (0.036)   &  (0.032)   &  (0.034)   &  (0.026)   &  (0.034)   &  (0.039)   \\
+                &            &  [0.328]   &  [0.001]   &  [0.328]   &  [0.328]   &  [0.894]   &  [0.328]   \\
+Keystroke       &   -0.030   &   -0.050   &   -0.103***&   -0.043   &    0.037   &    0.029   &   -0.066   \\
+                &  (0.019)   &  (0.037)   &  (0.034)   &  (0.039)   &  (0.027)   &  (0.039)   &  (0.043)   \\
+                &            &  [0.328]   &  [0.017]   &  [0.328]   &  [0.328]   &  [0.498]   &  [0.328]   \\
+\midrule
+Control Mean    &    0.508   &    0.617   &    0.702   &    0.686   &    0.231   &    0.410   &    0.577   \\
+Obs.            &      999   &     1023   &     1020   &     1018   &     1026   &     1021   &      826   \\
+Adjusted R-squared&    0.166   &    0.012   &    0.020   &    0.039   &    0.262   &    0.104   &    0.096   \\
+Pval Diff. between treatment&    0.632   &    0.818   &    0.557   &    0.876   &    0.911   &    0.375   &    0.914   \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize Notes: Each column shows the coefficient of regressing each answer related to women empowerment}\\
+\multicolumn{8}{l}{\footnotesize on increased privacy (codenames or keystroke treatment).}\\
+\multicolumn{8}{l}{\footnotesize Clustered Standard Errors at the village level in parentheses. Index is the average of all answers.}\\
+\multicolumn{8}{l}{\footnotesize All regressions include fixed effects for municipality.}\\
+\multicolumn{8}{l}{\footnotesize Control variables include age, marital status, log of land size, women education level, partner education level,}\\
+\multicolumn{8}{l}{\footnotesize household head, land ownership, number of (children, family members, adult men, adult women), and Digitagro participation.}\\
+\multicolumn{8}{l}{\footnotesize Stars denote statistical significance at 1,5, and 10\% levels based on unadjusted p-values}\\
+\multicolumn{8}{l}{\footnotesize FDR-q values in brackets. FDR-q values indicate the probability of false positives among significant tests.}\\
+\end{tabular}
+}

@@ -1,0 +1,24 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{7}{c}}
+\toprule
+                &\multicolumn{1}{c}{Index}&\multicolumn{1}{c}{Allowed to go out alone}&\multicolumn{1}{c}{Does not have to ask permission to buy goods}&\multicolumn{1}{c}{Visit Friends}&\multicolumn{1}{c}{Asset Purchasing}&\multicolumn{1}{c}{Relatives Care}&\multicolumn{1}{c}{Child Care}\\
+\midrule
+Added Privacy   &   -0.039** &   -0.043   &   -0.128***&   -0.049   &    0.034   &    0.015   &   -0.068*  \\
+                &  (0.015)   &  (0.031)   &  (0.027)   &  (0.031)   &  (0.024)   &  (0.031)   &  (0.035)   \\
+                &            &  [0.193]   &  [0.000]   &  [0.193]   &  [0.193]   &  [0.625]   &  [0.152]   \\
+\midrule
+Control Mean    &    0.508   &    0.617   &    0.702   &    0.686   &    0.231   &    0.410   &    0.577   \\
+Obs.            &      999   &     1023   &     1020   &     1018   &     1026   &     1021   &      826   \\
+Adjusted R-squared&    0.177   &    0.012   &    0.036   &    0.048   &    0.264   &    0.117   &    0.104   \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize Notes: Each column shows the coefficient of regressing each answer related to women empowerment}\\
+\multicolumn{8}{l}{\footnotesize on increased privacy (Pooled codenames and keystroke treatment).}\\
+\multicolumn{8}{l}{\footnotesize Clustered Standard Errors at the village level in parentheses. Index is the average of all answers.}\\
+\multicolumn{8}{l}{\footnotesize All regressions include control variables.}\\
+\multicolumn{8}{l}{\footnotesize Control variables include age, marital status, log of land size, women education level, partner education level,}\\
+\multicolumn{8}{l}{\footnotesize household head, land ownership, number of (children, family members, adult men, adult women), and Digitagro participation.}\\
+\multicolumn{8}{l}{\footnotesize Stars denote statistical significance at 1,5, and 10\% levels based on unadjusted p-values.}\\
+\multicolumn{8}{l}{\footnotesize FDR-q values in brackets. FDR-q values indicate the probability of false positives among significant tests}\\
+\end{tabular}
+}

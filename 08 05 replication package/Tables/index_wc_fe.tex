@@ -1,0 +1,25 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                &\multicolumn{1}{c}{Average Index}&\multicolumn{1}{c}{Standardized Index}&\multicolumn{1}{c}{Index from Q1-Q5}\\
+\midrule
+Codewords       &   -0.045\sym{**} &   -0.091\sym{**} &   -0.035\sym{**} \\
+                &  (0.019)         &  (0.040)         &  (0.017)         \\
+Keystroke       &   -0.032         &   -0.061         &   -0.022         \\
+                &  (0.021)         &  (0.043)         &  (0.019)         \\
+\midrule
+Control Mean    &    0.531         &    0.048         &    0.529         \\
+Obs.            &      806         &      806         &      999         \\
+Adjusted R-squared&    0.157         &    0.163         &    0.144         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize Notes: Clustered Standard Errors at the village level in parentheses.}\\
+\multicolumn{4}{l}{\footnotesize Average Index takes the average of all outcomes, Standardized Index takes the average of the standardized outcomes.}\\
+\multicolumn{4}{l}{\footnotesize Index from Q1-Q5 takes the average of the questions 1 to 5.}\\
+\multicolumn{4}{l}{\footnotesize Control variables include age, marital status, log of land size,}\\
+\multicolumn{4}{l}{\footnotesize education of interviewee, education of HH head, Number of children in household, number of women in household,}\\
+\multicolumn{4}{l}{\footnotesize number of men in household}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

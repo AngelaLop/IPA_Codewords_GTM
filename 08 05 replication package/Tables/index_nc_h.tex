@@ -1,0 +1,22 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                &\multicolumn{1}{c}{Average Index}&\multicolumn{1}{c}{Standardized Index}&\multicolumn{1}{c}{Index from Q1-Q5}\\
+\midrule
+Codewords       &   -0.055\sym{**} &   -0.111\sym{**} &   -0.049\sym{**} \\
+                &  (0.023)         &  (0.047)         &  (0.019)         \\
+Keystroke       &   -0.040\sym{*}  &   -0.080         &   -0.025         \\
+                &  (0.024)         &  (0.051)         &  (0.022)         \\
+\midrule
+Control Mean    &    0.531         &    0.048         &    0.529         \\
+Obs.            &      841         &      841         &     1066         \\
+Adjusted R-squared&    0.006         &    0.006         &    0.004         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize Notes: Clustered Standard Errors at the village level in parentheses.}\\
+\multicolumn{4}{l}{\footnotesize Average Index takes the average of all outcomes, Standardized Index takes the average of the standardized outcomes.}\\
+\multicolumn{4}{l}{\footnotesize Index from Q1-Q5 takes the average of the questions 1 to 5.}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
