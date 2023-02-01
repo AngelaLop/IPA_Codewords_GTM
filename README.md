@@ -14,4 +14,4 @@ To replicate the result tables of the project, please follow these instructions:
 3. Change the global root, which specifies the repository path
 4. Run the do-file.
 
-If you have any questions or issues with the repository, please contact javierromero@worldbank.org.
+If you have any questions or issues with the repository, please contact jromerohaaker@gmail.com.
